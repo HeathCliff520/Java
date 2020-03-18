@@ -1,6 +1,6 @@
 package ExerciseP1.Day02.InterFace;
 
-public class FirstInterFcaeImplate  implements FirstInterFace{
+public class FirstInterFcaeImplate2 implements FirstInterFace{
     @Override
     public void show() {
         System.out.println("this is my first inteface!!!");
@@ -22,12 +22,8 @@ public class FirstInterFcaeImplate  implements FirstInterFace{
         System.out.println("this not use public and abstract");
     }
 
-    //实现类可以有自己的方法：
-    public void testCalldefaut(){
-        System.out.println("+++++++++这里调用了接口的默认方法++++++++++++++++");
-        mainDefault();
+    @Override
+    public void mainDefault() {
+        System.out.println("this is implate2 to overwrite the default method");
     }
-
-    // not overwrite the interface default method;
-    //but it still will work well
 }
