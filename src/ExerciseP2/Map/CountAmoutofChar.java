@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class CountAmoutofChar {
     public static void main(String[] args) {
-        String text="gsgsgvvshl";
+        String text="gsgsgvvshldvdcdvds,gdgdgv.dhgdgl;dggd.fdsfsg/sgssg/sgsgsgs.shs             ";
         countAstring(text);
     }
 
@@ -24,7 +24,7 @@ public class CountAmoutofChar {
         Set<Character> characterSet = mapOfchar.keySet();
         for (Character x:characterSet) {
             Integer Value=mapOfchar.get(x);
-            System.out.println(x+":"+Value);
+            System.out.println(x+"字符的数量:"+Value+" ");
         }
 
 
