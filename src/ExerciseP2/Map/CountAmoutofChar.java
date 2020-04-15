@@ -26,7 +26,5 @@ public class CountAmoutofChar {
             Integer Value=mapOfchar.get(x);
             System.out.println(x+"字符的数量:"+Value+" ");
         }
-
-
     }
 }
