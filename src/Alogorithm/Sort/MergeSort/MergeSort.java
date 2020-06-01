@@ -4,7 +4,7 @@ public class MergeSort {
     //定义一个辅助数组
     private static Comparable[] assist;//归并时使用
 
-    public static boolean less(Comparable u,Comparable v){
+    public static boolean less(Comparable u,Comparable v){//若u小，则…………
         return u.compareTo(v)<0;//u-v是否小于0；
     }
 
