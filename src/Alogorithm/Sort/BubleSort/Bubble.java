@@ -11,7 +11,7 @@ public class Bubble {
         }
     }
     public static boolean greater(Comparable v,Comparable w){
-        return v.compareTo(w)>0;
+        return v.compareTo(w)>0;//v - w > 0;
     }
     public static void exchange(Comparable[] arr,int i,int j){
         Comparable temp;
